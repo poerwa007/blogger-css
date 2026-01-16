@@ -1,0 +1,23 @@
+<div class="chat-floating gradientButton svelte-g7pehz">
+  💬 Chat
+</div>
+
+<script>
+  document.querySelector(".chat-floating").onclick = function () {
+    window.open("https://wa.me/6281234567890", "_blank");
+  };
+</script>
+
+<style>
+.chat-floating{
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  z-index:9999;
+  padding:14px 22px;
+  font-size:16px;
+  cursor:pointer;
+  border-radius:30px;
+  background:#000;
+}
+</style>
