@@ -1,0 +1,9 @@
+<div class="gradientButton svelte-g7pehz chat-anim-btn">
+  💬 Chat Sekarang
+</div>
+
+<script>
+  document.querySelector(".chat-anim-btn").onclick = function () {
+    window.open("https://wa.me/6281234567890", "_blank");
+  };
+</script>
